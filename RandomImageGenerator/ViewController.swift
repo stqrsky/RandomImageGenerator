@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
+    let images: [UIImage] = [UIImage(named: "snow")!, UIImage(named: "hase")!, UIImage(named: "desktopcomputer")!, UIImage(named: "bicycle")!, UIImage(named: "tram")!]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func switchButtonDidTap(_ sender: UIButton) {
+        
+    }
+    
 }
 
