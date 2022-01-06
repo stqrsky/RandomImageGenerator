@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func switchButtonDidTap(_ sender: UIButton) {
-        
+        imageView.image = images.randomElement()
     }
     
 }
