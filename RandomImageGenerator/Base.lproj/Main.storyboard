@@ -28,6 +28,11 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Switch">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="switchButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kj4-bA-zgo"/>
                                 </connections>
@@ -38,6 +43,11 @@
                                     <constraint firstAttribute="height" constant="186" id="uWq-sl-uLc"/>
                                     <constraint firstAttribute="width" constant="315" id="xMG-Kd-nOy"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
